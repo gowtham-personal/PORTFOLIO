@@ -24,11 +24,11 @@ export default function Home() {
               <h1 className="text-4xl font-bold mb-2">Gowtham Dhamodaran</h1>
               <p className="text-xl text-blue-400 mb-4">Front End Tech Lead - React, React Native, Redux, Node, Express, Javascript & TypeScript</p>
               <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                <Button variant="" className="gap-2 cursor-text">
+                <Button className="gap-2 cursor-text">
                   <Phone className="w-4 h-4" />
                   +91 7418100293
                 </Button>
-                <Button variant="" className="gap-2 cursor-text">
+                <Button className="gap-2 cursor-text">
                   <Mail className="w-4 h-4" />
                   gowthamdhamodaran94@gmail.com
                 </Button>
