@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-b from-blue-950 to-black">
+      <div className="fixed relative bg-gradient-to-b from-blue-950 to-black">
         <div className="container mx-auto px-4 py-5 relative z-10">
           <div className="flex flex-col md:flex-row items-center gap-3">
             <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-blue-500 shadow-2xl shadow-blue-500/20">
@@ -69,7 +69,7 @@ export default function Home() {
                   asChild
                 >
                   <a
-                    href="https://drive.google.com/file/d/1M1My8ZhT1PMDeXKcKI2rTPErHDijY61H/view?usp=drive_link"
+                    href="https://drive.google.com/file/d/1M1My8ZhT1PMDeXKcKI2rTPErHDijY61H/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     download="Gowtham_Dhamodaran_CV.pdf"
@@ -106,14 +106,27 @@ export default function Home() {
                 </div>
                 <ul className="text-gray-400 list-disc pl-4 space-y-2">
                   <li>
-                    Real estate Portal for Sourcing the property - Building
-                    API'S
+                    Developed a Micro-Frontend architecture leveraging Module
+                    Federation, enabling independent deployment and seamless
+                    integration of features.
                   </li>
-                  <li>Managing Pipeline with Lambda and Kafka</li>
+                  <li>
+                    Integrated WebSockets for real-time property updates,
+                    ensuring instant data synchronisation across client
+                    applications.
+                  </li>
+                  <li>
+                    Architected and implemented robust APIs for Sourcing and
+                    Investment Modules
+                  </li>
                   <li>
                     Applied the Design Pattern and builded Reusable components
                   </li>
-                  <li>Mentored the Juniors</li>
+                  <li>
+                    Streamlined data processing pipelines, improving system
+                    efficiency by 20%. using AWS Lambda and Kafka, enabling
+                    real-time event-driven workflows.
+                  </li>
                 </ul>
               </CardContent>
             </Card>
@@ -131,11 +144,18 @@ export default function Home() {
                 </div>
                 <ul className="text-gray-400 list-disc pl-4 space-y-2">
                   <li>
-                    Mortgage loan & payments involves contract signing & Pdf
-                    generation
+                    Spearheaded performance optimization, enhancing page load
+                    speeds by 30% and improving SEO rankings.
                   </li>
-                  <li>Involved in Improving Performance & SEO</li>
-                  <li>Involved in Code Review, Debugging & Deployment</li>
+                  <li>
+                    Automated PDF generation for mortgage contracts, reducing
+                    manual efforts by 40%.
+                  </li>
+                  <li>
+                    Conducted code reviews, debugging, and deployments, ensuring
+                    high-quality standards. Involved in Code Review, Debugging &
+                    Deployment
+                  </li>
                 </ul>
               </CardContent>
             </Card>
@@ -154,6 +174,10 @@ export default function Home() {
                 <ul className="text-gray-400 list-disc pl-4 space-y-2">
                   <li>Crypto Exchange & Payments</li>
                   <li>Worked on different payment model, AS1, AS2 & sale</li>
+                  <li>
+                    Built an end to end Internal Triaging Tool for Crypto
+                    Platform in paypal.
+                  </li>
                 </ul>
               </CardContent>
             </Card>
